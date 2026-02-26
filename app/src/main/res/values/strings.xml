@@ -1,0 +1,12 @@
+
+<resources>
+    <string name="app_name">IntraAI</string>
+    <string name="default_web_client_id">232061410702-t2uo85dnquit4974tmb1f8r827kr96gu.apps.googleusercontent.com</string>
+    <!-- Google Maps API key placeholder: replace with your key -->
+    <string name="google_maps_key">AIzaSyBCCi37KWYFEBsU__QfKs5ME-X8l_RyaLM</string>
+
+    <string name="app_logo">App logo</string>
+    <string name="welcome_message" translatable="false">Welcome to IntraAI!</string>
+
+
+</resources>

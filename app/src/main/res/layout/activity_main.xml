@@ -1,0 +1,92 @@
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+
+        <!-- Login Info -->
+        <TextView
+            android:id="@+id/loginStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Not logged in"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <!-- Text Input for LLM -->
+        <EditText
+            android:id="@+id/textInput"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Enter your text prompt here"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+
+        <!-- Image Picker Button -->
+        <Button
+            android:id="@+id/selectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="📁 Select Image" />
+
+        <!-- Run LLM Button -->
+        <Button
+            android:id="@+id/runLLM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="🧠 Run Instruction LLM" />
+
+        <!-- Run Multimodal Button -->
+
+        <!-- Output -->
+
+        <Button
+            android:id="@+id/runMultimodal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="🖼️ Run Multimodal Model" />
+
+        <TextView
+            android:id="@+id/outputView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/output_box_background"
+            android:gravity="start"
+            android:maxLines="100"
+            android:overScrollMode="ifContentScrolls"
+            android:padding="16dp"
+            android:scrollbars="vertical"
+            android:text="Output will appear here"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+
+
+
+    </LinearLayout>
+</ScrollView>

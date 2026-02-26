@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "232061410702",
+    "project_id": "localllmapp",
+    "storage_bucket": "localllmapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232061410702:android:767b4db0526c26b3c618df",
+        "android_client_info": {
+          "package_name": "com.example.localllmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232061410702-85efv617vp9l7fp2h720cs4k528nm08o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.localllmapp",
+            "certificate_hash": "ea328a1ee3ffe4e91427bf750a61730b7e7eca54"
+          }
+        },
+        {
+          "client_id": "232061410702-t2uo85dnquit4974tmb1f8r827kr96gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaBmflxmqfBkHqTODKIVFD6jufS6J4zxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232061410702-t2uo85dnquit4974tmb1f8r827kr96gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
